@@ -53,6 +53,4 @@ if directory_exists(modDir[currentMod]+"/data/lang")
 	directory_copy(modDir[currentMod]+"/data/lang", pizzaTowerMod+"lang", fa_none)
 file_delete(pizzaTowerMod+"steam_api64.dll")
 file_delete(pizzaTowerMod+"Steamworks_x64.dll")
-show_debug_message("Updating data.win")
-file_copy(game_save_id+"/pt/patch/data.win", game_save_id+"/pt/data.win")
-alarm[0] = 30
+alarm[0] = 5*60

@@ -268,6 +268,14 @@ function legacyImport(){
 	if file_exists(poRoot+"/mod-sfx.bank"){
 		file_copy(poRoot+"/mod-sfx.bank", game_save_id+"/mods/"+newModName+"-converted/data/sound/Desktop/mod-sfx.bank")
 	}
+	//Azu Tower is also weird...
+	if file_exists(game_save_id+"/temp/mod-music.bank"){
+		file_copy(game_save_id+"/temp/mod-music.bank", game_save_id+"/mods/"+newModName+"-converted/data/sound/Desktop/mod-music.bank")
+	}
+	if file_exists(game_save_id+"/temp/mod-sfx.bank"){
+		file_copy(game_save_id+"/temp/mod-sfx.bank", game_save_id+"/mods/"+newModName+"-converted/data/sound/Desktop/mod-sfx.bank")
+	}
+	
 	
 }
 
