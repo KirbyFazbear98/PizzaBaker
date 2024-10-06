@@ -1,0 +1,2 @@
+
+tehIcon = sprFallbackThumb

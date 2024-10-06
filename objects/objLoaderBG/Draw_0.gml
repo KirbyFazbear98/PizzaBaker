@@ -1,0 +1,1 @@
+draw_sprite_tiled(sprLoaderBG, 0, bgx, bgy)
