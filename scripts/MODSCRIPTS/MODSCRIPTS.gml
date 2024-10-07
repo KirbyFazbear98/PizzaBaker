@@ -244,6 +244,11 @@ function legacyImport(){
 	if directory_exists(poRoot+"/sound/Desktop"){
 		directory_copy(poRoot+"/sound/Desktop", game_save_id+"/mods/"+newModName+"-converted/data/sound/Desktop", fa_none)
 	}
+	//ELM Support
+	if directory_exists(poRoot+"/EggsLapMod"){
+		directory_copy(poRoot+"/EggsLapMod", game_save_id+"/mods/"+newModName+"-converted/data/sound/Desktop/EggsLapMod", fa_none)
+	}
+	
 
 	//Now for any straglers
 	if file_exists(poRoot+"/english.txt"){

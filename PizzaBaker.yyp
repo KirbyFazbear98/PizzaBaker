@@ -80,6 +80,7 @@
     {"id":{"name":"sprLogo","path":"sprites/sprLogo/sprLogo.yy",},},
     {"id":{"name":"sprModButton","path":"sprites/sprModButton/sprModButton.yy",},},
     {"id":{"name":"sprNewPTFolder","path":"sprites/sprNewPTFolder/sprNewPTFolder.yy",},},
+    {"id":{"name":"sprNewVersionAvailable","path":"sprites/sprNewVersionAvailable/sprNewVersionAvailable.yy",},},
     {"id":{"name":"sprNoiseBreakdance","path":"sprites/sprNoiseBreakdance/sprNoiseBreakdance.yy",},},
     {"id":{"name":"sprNoiseDance","path":"sprites/sprNoiseDance/sprNoiseDance.yy",},},
     {"id":{"name":"sprNoMods","path":"sprites/sprNoMods/sprNoMods.yy",},},
